@@ -16,6 +16,7 @@ public class Student {
 	
 	public Student(int rollNo,String name,String branch)
 	{
+		//this();
 		this.rollNo=rollNo;
 		this.name=name;
 		this.branch=branch;
@@ -40,6 +41,10 @@ public class Student {
 	}
 	public void setBranch(String branch) {
 		this.branch = branch;
+	}
+	
+	public Student getStudent() {
+		return this;
 	}
     
 	

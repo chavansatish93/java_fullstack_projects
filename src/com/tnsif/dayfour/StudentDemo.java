@@ -24,6 +24,14 @@ public class StudentDemo {
 		System.out.println("RollNo :"+studobjtwo.getRollNo());
 		System.out.println("Name :"+studobjtwo.getName());
 		System.out.println("Branch :"+studobjtwo.getBranch());
+		
+		Student stud;
+		stud = studobjone.getStudent();
+		
+		System.out.println("-------------------------------");
+		System.out.println("RollNo :"+stud.getRollNo());
+		System.out.println("Name :"+stud.getName());
+		System.out.println("Branch :"+stud.getBranch());
 	}
 
 }
